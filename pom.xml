@@ -6,7 +6,7 @@
 	<artifactId>liferay-https-filter-hook</artifactId>
 	<packaging>war</packaging>
 	<name>Liferay HTTPS Servlet Request Wrapper Filter Hook</name>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.1-SNAPSHOT</version>
 	<build>
 		<finalName>liferay-https-filter-hook</finalName>
 		<plugins>
@@ -42,7 +42,6 @@
 		</plugins>
 	</build>
 	<dependencies>
-
 		<dependency>
 			<groupId>com.liferay.portal</groupId>
 			<artifactId>portal-service</artifactId>
