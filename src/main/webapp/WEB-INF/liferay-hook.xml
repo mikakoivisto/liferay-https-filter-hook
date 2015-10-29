@@ -9,6 +9,9 @@
 
 	<servlet-filter-mapping>
 		<servlet-filter-name>HttpsRequestWrapperFilter</servlet-filter-name>
+		<!--
+		<before-filter>SSO CAS Filter</before-filter>
+		-->
 		<url-pattern>/*</url-pattern>
 		<dispatcher>REQUEST</dispatcher>
 	</servlet-filter-mapping>
